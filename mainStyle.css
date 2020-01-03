@@ -1,0 +1,9 @@
+.menuMain
+{
+    float: right;
+    padding: 5px;
+}
+.main{
+    background-color: aqua;
+    height: 100vh;
+}
