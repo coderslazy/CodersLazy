@@ -10,7 +10,7 @@ header{
 {
     color: white;
     float: left;
-    font-family: "Roboto","sans-serif";
+    font-family: "Roboto",sans-serif;
     margin-left: 22rem;
     margin-top: 2rem;
     font-size: 1.5rem;
@@ -101,4 +101,95 @@ margin-right: 20rem;
 {
     background: rgba(0,0,0,0) linear-gradient(to right,#00c6ff,#0072ff);
     border: 2px solid rgba(0,114,255,1)  ;
+}
+/* =====================================*/
+/* ================About================*/
+/* =====================================*/
+.head-section
+{
+    text-transform: uppercase;
+    border-bottom: 4px solid #109af7;
+    border-top: 4px solid #000;
+    display: inline-block;
+    font-size: 36px;
+    color: #222;
+    /* margin-bottom: 15px;
+    margin-top: 10px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,150%);
+    padding: 5px 0;
+}
+.about-section
+{
+    height: 80vh;
+    background-color: white;
+}
+.avatar img
+{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%,80%);
+    border-radius: 50%;
+}
+.p-long
+{
+    color: black;
+    display: inline-block;
+    padding-top: 10px ;
+    width: 70vh;
+}
+.main-info
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%,120%);
+    margin-left: 20px;
+    font-family: 'Roboto',sans-serif;
+    display: inline-block;
+}
+.main-info h2
+{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 24px;
+    color: #109af7;
+}
+.main-info h3
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+.btn-down
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,500%);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    border: 2px solid rgba(0,114,255,1) ;
+    padding: 15px 15px;
+    margin-top: -150px;
+    margin-left: -214px;
+    text-transform: uppercase;
+    color: rgba(0,114,255,1) ;
+    transition: all 0.5s;
+}
+  .btn-down:active, .btn-down:hover
+{
+    background: rgba(0,0,0,0) linear-gradient(to right,#00c6ff,#0072ff);
+    border: 2px solid rgba(0,114,255,1)  ;
+    color: white;
+}
+.main-info a
+{
+    text-decoration: none;
 }
