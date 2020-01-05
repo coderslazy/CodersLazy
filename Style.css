@@ -132,7 +132,7 @@ margin-right: 20rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-150%,80%);
+    transform: translate(-150%,70%);
     border-radius: 50%;
 }
 .p-long
@@ -140,14 +140,14 @@ margin-right: 20rem;
     color: black;
     display: inline-block;
     padding-top: 10px ;
-    width: 70vh;
+    width: 100%;
 }
 .main-info
 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-15%,120%);
+    transform: translate(-15%,110%);
     margin-left: 20px;
     font-family: 'Roboto',sans-serif;
     display: inline-block;
@@ -178,7 +178,7 @@ margin-right: 20rem;
     border: 2px solid rgba(0,114,255,1) ;
     padding: 15px 15px;
     margin-top: -150px;
-    margin-left: -214px;
+    margin-left: -110px;
     text-transform: uppercase;
     color: rgba(0,114,255,1) ;
     transition: all 0.5s;
